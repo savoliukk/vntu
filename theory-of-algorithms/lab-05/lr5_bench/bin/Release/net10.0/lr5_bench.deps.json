@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "lr5_bench/1.0.0": {
+        "runtime": {
+          "lr5_bench.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lr5_bench/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

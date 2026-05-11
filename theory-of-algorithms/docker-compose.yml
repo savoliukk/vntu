@@ -1,0 +1,40 @@
+name: theory-of-algorithms
+
+x-lab-runner: &lab-runner
+  build:
+    context: .
+  working_dir: /workspace
+
+services:
+  all:
+    <<: *lab-runner
+    command:
+      - /bin/sh
+      - -c
+      - |
+        set -e
+        dotnet run --project lab-02/lr2_bench/Lr2Bench.csproj --configuration Release
+        dotnet run --project lab-04/lr4_bench/Lr4Bench.csproj --configuration Release
+        dotnet run --project lab-05/lr5_bench/lr5_bench.csproj --configuration Release
+        dotnet run --project lab-07/lr7_bench/lr7_bench.csproj --configuration Release
+        dotnet run --project lab-08/lr8_bench/lr8_bench.csproj --configuration Release
+
+  lab-02:
+    <<: *lab-runner
+    command: ["dotnet", "run", "--project", "lab-02/lr2_bench/Lr2Bench.csproj", "--configuration", "Release"]
+
+  lab-04:
+    <<: *lab-runner
+    command: ["dotnet", "run", "--project", "lab-04/lr4_bench/Lr4Bench.csproj", "--configuration", "Release"]
+
+  lab-05:
+    <<: *lab-runner
+    command: ["dotnet", "run", "--project", "lab-05/lr5_bench/lr5_bench.csproj", "--configuration", "Release"]
+
+  lab-07:
+    <<: *lab-runner
+    command: ["dotnet", "run", "--project", "lab-07/lr7_bench/lr7_bench.csproj", "--configuration", "Release"]
+
+  lab-08:
+    <<: *lab-runner
+    command: ["dotnet", "run", "--project", "lab-08/lr8_bench/lr8_bench.csproj", "--configuration", "Release"]

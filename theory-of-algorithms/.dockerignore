@@ -1,0 +1,5 @@
+**/bin/
+**/obj/
+**/*.FileListAbsolute.txt
+.git/
+.gitignore
