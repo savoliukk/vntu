@@ -1,10 +1,8 @@
-FROM python:3.12-slim
+FROM node:22-alpine
 
 WORKDIR /app
 
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-
+COPY package.json ./
 COPY . .
 
-CMD ["python", "run_all.py"]
+CMD ["npm", "run", "build"]

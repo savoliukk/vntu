@@ -1,5 +1,5 @@
-.git/
 node_modules/
-practice-*/
-scripts/
-package.json
+
+*_results.json
+*_results.txt
+task4_relation_graph.mmd

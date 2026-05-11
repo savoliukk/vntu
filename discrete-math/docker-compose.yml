@@ -1,14 +1,5 @@
 services:
-  labs:
+  discrete-math:
     build:
       context: .
-    command: python run_all.py
-
-  practices:
-    image: node:22-alpine
-    profiles:
-      - practices
-    working_dir: /app
-    volumes:
-      - .:/app
     command: npm run build

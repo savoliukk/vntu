@@ -9,6 +9,10 @@ node_modules/
 .DS_Store
 Thumbs.db
 
+*_results.json
+*_results.txt
+task4_relation_graph.mmd
+
 edge-profile*/
 **/Cache/
 **/GPUCache/
