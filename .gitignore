@@ -4,3 +4,13 @@ __pycache__/
 venv/
 .pytest_cache/
 .mypy_cache/
+
+node_modules/
+.DS_Store
+Thumbs.db
+
+edge-profile*/
+**/Cache/
+**/GPUCache/
+**/Code Cache/
+**/Default/
