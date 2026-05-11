@@ -1,0 +1,4 @@
+services:
+  labs:
+    build: .
+    command: python run_all.py
