@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+Thumbs.db
+
+edge-profile*/
+**/Cache/
+**/GPUCache/
+**/Code Cache/
+**/Default/
