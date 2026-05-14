@@ -1,0 +1,10 @@
+Практична робота 2: контрольні результати
+
+Задача 4: |R| = 18, предикат еквівалентний умові m непарне.
+Класифікація: {"reflexive":false,"irreflexive":false,"symmetric":false,"antisymmetric":false,"asymmetric":false,"transitive":true}
+
+Задача 5: мінімальна ціна = 4, покриття: BFGH
+Найкоротша довжина = 2, покриття: AE
+
+Задача 6, варіант 59: {"allPlacements":19683,"firstCarExactly3":5376,"eachCarExactly3":1680,"distribution4_3_2":7560}
+Задача 6, варіант 33: {"lettersIntoBoxes":55440}

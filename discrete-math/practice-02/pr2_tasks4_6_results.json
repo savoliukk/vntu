@@ -1,0 +1,405 @@
+{
+  "task4": {
+    "variant": 9,
+    "D": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "predicate": "(3m + 1 - 2n) is even",
+    "simplifiedPredicate": "m is odd",
+    "relation": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "matrix": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "classification": {
+      "reflexive": false,
+      "irreflexive": false,
+      "symmetric": false,
+      "antisymmetric": false,
+      "asymmetric": false,
+      "transitive": true
+    }
+  },
+  "task5": {
+    "variant": 24,
+    "universe": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "rows": {
+      "A": {
+        "items": [
+          2,
+          5,
+          6,
+          7
+        ],
+        "cost": 3
+      },
+      "B": {
+        "items": [
+          2,
+          8,
+          9
+        ],
+        "cost": 1
+      },
+      "C": {
+        "items": [
+          1,
+          3,
+          7
+        ],
+        "cost": 2
+      },
+      "D": {
+        "items": [
+          3,
+          5,
+          6,
+          9
+        ],
+        "cost": 2
+      },
+      "E": {
+        "items": [
+          1,
+          3,
+          4,
+          8,
+          9
+        ],
+        "cost": 3
+      },
+      "F": {
+        "items": [
+          1,
+          4,
+          6
+        ],
+        "cost": 1
+      },
+      "G": {
+        "items": [
+          4,
+          5,
+          8
+        ],
+        "cost": 1
+      },
+      "H": {
+        "items": [
+          3,
+          7
+        ],
+        "cost": 1
+      }
+    },
+    "irredundantCovers": [
+      {
+        "rows": [
+          "A",
+          "E"
+        ],
+        "cost": 6,
+        "length": 2
+      },
+      {
+        "rows": [
+          "A",
+          "B",
+          "C",
+          "F"
+        ],
+        "cost": 7,
+        "length": 4
+      },
+      {
+        "rows": [
+          "A",
+          "B",
+          "C",
+          "G"
+        ],
+        "cost": 7,
+        "length": 4
+      },
+      {
+        "rows": [
+          "A",
+          "B",
+          "D",
+          "F"
+        ],
+        "cost": 7,
+        "length": 4
+      },
+      {
+        "rows": [
+          "A",
+          "B",
+          "F",
+          "H"
+        ],
+        "cost": 6,
+        "length": 4
+      },
+      {
+        "rows": [
+          "A",
+          "C",
+          "D",
+          "G"
+        ],
+        "cost": 8,
+        "length": 4
+      },
+      {
+        "rows": [
+          "A",
+          "D",
+          "F",
+          "G"
+        ],
+        "cost": 7,
+        "length": 4
+      },
+      {
+        "rows": [
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "cost": 8,
+        "length": 4
+      },
+      {
+        "rows": [
+          "B",
+          "C",
+          "D",
+          "F"
+        ],
+        "cost": 6,
+        "length": 4
+      },
+      {
+        "rows": [
+          "B",
+          "C",
+          "D",
+          "G"
+        ],
+        "cost": 6,
+        "length": 4
+      },
+      {
+        "rows": [
+          "B",
+          "C",
+          "F",
+          "G"
+        ],
+        "cost": 5,
+        "length": 4
+      },
+      {
+        "rows": [
+          "B",
+          "D",
+          "E",
+          "H"
+        ],
+        "cost": 7,
+        "length": 4
+      },
+      {
+        "rows": [
+          "B",
+          "D",
+          "F",
+          "H"
+        ],
+        "cost": 5,
+        "length": 4
+      },
+      {
+        "rows": [
+          "B",
+          "F",
+          "G",
+          "H"
+        ],
+        "cost": 4,
+        "length": 4
+      }
+    ],
+    "minCost": 4,
+    "minCostCovers": [
+      {
+        "rows": [
+          "B",
+          "F",
+          "G",
+          "H"
+        ],
+        "cost": 4,
+        "length": 4
+      }
+    ],
+    "minLength": 2,
+    "shortestCovers": [
+      {
+        "rows": [
+          "A",
+          "E"
+        ],
+        "cost": 6,
+        "length": 2
+      }
+    ]
+  },
+  "task6": {
+    "variant59": {
+      "allPlacements": 19683,
+      "firstCarExactly3": 5376,
+      "eachCarExactly3": 1680,
+      "distribution4_3_2": 7560
+    },
+    "variant33": {
+      "lettersIntoBoxes": 55440
+    }
+  }
+}

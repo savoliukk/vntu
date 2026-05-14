@@ -6,12 +6,26 @@ venv/
 .mypy_cache/
 
 node_modules/
+package.json
+package-lock.json
+Dockerfile
+docker-compose.yml
+.dockerignore
+*.js
 .DS_Store
 Thumbs.db
 
-*_results.json
-*_results.txt
-task4_relation_graph.mmd
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.mmd
+*.html
+*.docx
+*.xlsx
+*.md
+!discrete-math/README.md
 
 edge-profile*/
 **/Cache/

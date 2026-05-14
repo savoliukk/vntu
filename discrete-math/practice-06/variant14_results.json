@@ -1,0 +1,260 @@
+{
+  "variant": 14,
+  "vertices": [
+    "X1",
+    "X2",
+    "X3",
+    "X4",
+    "X5"
+  ],
+  "matrix": [
+    [
+      null,
+      16,
+      9,
+      null,
+      2
+    ],
+    [
+      11,
+      null,
+      14,
+      9,
+      6
+    ],
+    [
+      21,
+      4,
+      null,
+      4,
+      18
+    ],
+    [
+      7,
+      null,
+      1,
+      null,
+      22
+    ],
+    [
+      8,
+      9,
+      11,
+      15,
+      null
+    ]
+  ],
+  "allowedArcCount": 18,
+  "checkedCycleCount": 24,
+  "validCycleCount": 14,
+  "rejectedCycleCount": 10,
+  "minimumCost": 33,
+  "optimalCycles": [
+    {
+      "cycle": "X1 -> X5 -> X3 -> X2 -> X4 -> X1",
+      "weights": [
+        2,
+        11,
+        4,
+        9,
+        7
+      ],
+      "cost": 33
+    },
+    {
+      "cycle": "X1 -> X5 -> X4 -> X3 -> X2 -> X1",
+      "weights": [
+        2,
+        15,
+        1,
+        4,
+        11
+      ],
+      "cost": 33
+    }
+  ],
+  "validCycles": [
+    {
+      "order": 1,
+      "cycle": "X1 -> X5 -> X3 -> X2 -> X4 -> X1",
+      "weights": [
+        2,
+        11,
+        4,
+        9,
+        7
+      ],
+      "cost": 33,
+      "optimal": true
+    },
+    {
+      "order": 2,
+      "cycle": "X1 -> X5 -> X4 -> X3 -> X2 -> X1",
+      "weights": [
+        2,
+        15,
+        1,
+        4,
+        11
+      ],
+      "cost": 33,
+      "optimal": true
+    },
+    {
+      "order": 3,
+      "cycle": "X1 -> X5 -> X2 -> X3 -> X4 -> X1",
+      "weights": [
+        2,
+        9,
+        14,
+        4,
+        7
+      ],
+      "cost": 36,
+      "optimal": false
+    },
+    {
+      "order": 4,
+      "cycle": "X1 -> X3 -> X2 -> X5 -> X4 -> X1",
+      "weights": [
+        9,
+        4,
+        6,
+        15,
+        7
+      ],
+      "cost": 41,
+      "optimal": false
+    },
+    {
+      "order": 5,
+      "cycle": "X1 -> X5 -> X2 -> X4 -> X3 -> X1",
+      "weights": [
+        2,
+        9,
+        9,
+        1,
+        21
+      ],
+      "cost": 42,
+      "optimal": false
+    },
+    {
+      "order": 6,
+      "cycle": "X1 -> X2 -> X5 -> X3 -> X4 -> X1",
+      "weights": [
+        16,
+        6,
+        11,
+        4,
+        7
+      ],
+      "cost": 44,
+      "optimal": false
+    },
+    {
+      "order": 7,
+      "cycle": "X1 -> X2 -> X4 -> X3 -> X5 -> X1",
+      "weights": [
+        16,
+        9,
+        1,
+        18,
+        8
+      ],
+      "cost": 52,
+      "optimal": false
+    },
+    {
+      "order": 8,
+      "cycle": "X1 -> X3 -> X2 -> X4 -> X5 -> X1",
+      "weights": [
+        9,
+        4,
+        9,
+        22,
+        8
+      ],
+      "cost": 52,
+      "optimal": false
+    },
+    {
+      "order": 9,
+      "cycle": "X1 -> X3 -> X5 -> X2 -> X4 -> X1",
+      "weights": [
+        9,
+        18,
+        9,
+        9,
+        7
+      ],
+      "cost": 52,
+      "optimal": false
+    },
+    {
+      "order": 10,
+      "cycle": "X1 -> X3 -> X4 -> X5 -> X2 -> X1",
+      "weights": [
+        9,
+        4,
+        22,
+        9,
+        11
+      ],
+      "cost": 55,
+      "optimal": false
+    },
+    {
+      "order": 11,
+      "cycle": "X1 -> X2 -> X5 -> X4 -> X3 -> X1",
+      "weights": [
+        16,
+        6,
+        15,
+        1,
+        21
+      ],
+      "cost": 59,
+      "optimal": false
+    },
+    {
+      "order": 12,
+      "cycle": "X1 -> X2 -> X3 -> X4 -> X5 -> X1",
+      "weights": [
+        16,
+        14,
+        4,
+        22,
+        8
+      ],
+      "cost": 64,
+      "optimal": false
+    },
+    {
+      "order": 13,
+      "cycle": "X1 -> X2 -> X3 -> X5 -> X4 -> X1",
+      "weights": [
+        16,
+        14,
+        18,
+        15,
+        7
+      ],
+      "cost": 70,
+      "optimal": false
+    },
+    {
+      "order": 14,
+      "cycle": "X1 -> X2 -> X4 -> X5 -> X3 -> X1",
+      "weights": [
+        16,
+        9,
+        22,
+        11,
+        21
+      ],
+      "cost": 79,
+      "optimal": false
+    }
+  ]
+}

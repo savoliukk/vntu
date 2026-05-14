@@ -1,5 +1,0 @@
-services:
-  discrete-math:
-    build:
-      context: .
-    command: npm run build

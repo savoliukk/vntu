@@ -1,0 +1,502 @@
+{
+  "variant": 14,
+  "source": "X1",
+  "target": "X13",
+  "vertices": [
+    "X1",
+    "X2",
+    "X3",
+    "X4",
+    "X5",
+    "X6",
+    "X7",
+    "X8",
+    "X9",
+    "X10",
+    "X11",
+    "X12",
+    "X13"
+  ],
+  "layers": [
+    [
+      "X1"
+    ],
+    [
+      "X2",
+      "X3",
+      "X4"
+    ],
+    [
+      "X5",
+      "X6",
+      "X7",
+      "X8"
+    ],
+    [
+      "X9",
+      "X10",
+      "X11",
+      "X12"
+    ],
+    [
+      "X13"
+    ]
+  ],
+  "edges": [
+    {
+      "from": "X1",
+      "to": "X2",
+      "weight": 3
+    },
+    {
+      "from": "X1",
+      "to": "X3",
+      "weight": 4
+    },
+    {
+      "from": "X1",
+      "to": "X4",
+      "weight": 4
+    },
+    {
+      "from": "X2",
+      "to": "X5",
+      "weight": 1
+    },
+    {
+      "from": "X2",
+      "to": "X6",
+      "weight": 2
+    },
+    {
+      "from": "X3",
+      "to": "X5",
+      "weight": 2
+    },
+    {
+      "from": "X3",
+      "to": "X7",
+      "weight": 1
+    },
+    {
+      "from": "X4",
+      "to": "X6",
+      "weight": 2
+    },
+    {
+      "from": "X4",
+      "to": "X7",
+      "weight": 2
+    },
+    {
+      "from": "X4",
+      "to": "X8",
+      "weight": 3
+    },
+    {
+      "from": "X5",
+      "to": "X9",
+      "weight": 2
+    },
+    {
+      "from": "X5",
+      "to": "X11",
+      "weight": 2
+    },
+    {
+      "from": "X6",
+      "to": "X10",
+      "weight": 1
+    },
+    {
+      "from": "X6",
+      "to": "X12",
+      "weight": 1
+    },
+    {
+      "from": "X7",
+      "to": "X9",
+      "weight": 1
+    },
+    {
+      "from": "X7",
+      "to": "X10",
+      "weight": 1
+    },
+    {
+      "from": "X8",
+      "to": "X11",
+      "weight": 1
+    },
+    {
+      "from": "X8",
+      "to": "X12",
+      "weight": 2
+    },
+    {
+      "from": "X9",
+      "to": "X13",
+      "weight": 3
+    },
+    {
+      "from": "X10",
+      "to": "X13",
+      "weight": 2
+    },
+    {
+      "from": "X11",
+      "to": "X13",
+      "weight": 2
+    },
+    {
+      "from": "X12",
+      "to": "X13",
+      "weight": 3
+    }
+  ],
+  "wave": {
+    "distance": 8,
+    "path": [
+      "X1",
+      "X2",
+      "X6",
+      "X10",
+      "X13"
+    ],
+    "distances": {
+      "X1": 0,
+      "X2": 3,
+      "X3": 4,
+      "X4": 4,
+      "X5": 4,
+      "X6": 5,
+      "X7": 5,
+      "X8": 7,
+      "X9": 6,
+      "X10": 6,
+      "X11": 6,
+      "X12": 6,
+      "X13": 8
+    },
+    "previous": {
+      "X1": null,
+      "X2": "X1",
+      "X3": "X1",
+      "X4": "X1",
+      "X5": "X2",
+      "X6": "X2",
+      "X7": "X3",
+      "X8": "X4",
+      "X9": "X5",
+      "X10": "X6",
+      "X11": "X5",
+      "X12": "X6",
+      "X13": "X10"
+    },
+    "trace": [
+      {
+        "layer": [
+          "X1"
+        ],
+        "changed": [
+          {
+            "vertex": "X2",
+            "distance": 3,
+            "previous": "X1"
+          },
+          {
+            "vertex": "X3",
+            "distance": 4,
+            "previous": "X1"
+          },
+          {
+            "vertex": "X4",
+            "distance": 4,
+            "previous": "X1"
+          }
+        ]
+      },
+      {
+        "layer": [
+          "X2",
+          "X3",
+          "X4"
+        ],
+        "changed": [
+          {
+            "vertex": "X5",
+            "distance": 4,
+            "previous": "X2"
+          },
+          {
+            "vertex": "X6",
+            "distance": 5,
+            "previous": "X2"
+          },
+          {
+            "vertex": "X7",
+            "distance": 5,
+            "previous": "X3"
+          },
+          {
+            "vertex": "X8",
+            "distance": 7,
+            "previous": "X4"
+          }
+        ]
+      },
+      {
+        "layer": [
+          "X5",
+          "X6",
+          "X7",
+          "X8"
+        ],
+        "changed": [
+          {
+            "vertex": "X9",
+            "distance": 6,
+            "previous": "X5"
+          },
+          {
+            "vertex": "X10",
+            "distance": 6,
+            "previous": "X6"
+          },
+          {
+            "vertex": "X11",
+            "distance": 6,
+            "previous": "X5"
+          },
+          {
+            "vertex": "X12",
+            "distance": 6,
+            "previous": "X6"
+          }
+        ]
+      },
+      {
+        "layer": [
+          "X9",
+          "X10",
+          "X11",
+          "X12"
+        ],
+        "changed": [
+          {
+            "vertex": "X13",
+            "distance": 8,
+            "previous": "X10"
+          }
+        ]
+      },
+      {
+        "layer": [
+          "X13"
+        ],
+        "changed": []
+      }
+    ]
+  },
+  "dijkstra": {
+    "distance": 8,
+    "path": [
+      "X1",
+      "X2",
+      "X6",
+      "X10",
+      "X13"
+    ],
+    "distances": {
+      "X1": 0,
+      "X2": 3,
+      "X3": 4,
+      "X4": 4,
+      "X5": 4,
+      "X6": 5,
+      "X7": 5,
+      "X8": 7,
+      "X9": 6,
+      "X10": 6,
+      "X11": 6,
+      "X12": 6,
+      "X13": 8
+    },
+    "previous": {
+      "X1": null,
+      "X2": "X1",
+      "X3": "X1",
+      "X4": "X1",
+      "X5": "X2",
+      "X6": "X2",
+      "X7": "X3",
+      "X8": "X4",
+      "X9": "X5",
+      "X10": "X6",
+      "X11": "X5",
+      "X12": "X6",
+      "X13": "X10"
+    },
+    "trace": [
+      {
+        "selected": "X1",
+        "selectedDistance": 0,
+        "updates": [
+          {
+            "vertex": "X2",
+            "distance": 3,
+            "previous": "X1"
+          },
+          {
+            "vertex": "X3",
+            "distance": 4,
+            "previous": "X1"
+          },
+          {
+            "vertex": "X4",
+            "distance": 4,
+            "previous": "X1"
+          }
+        ]
+      },
+      {
+        "selected": "X2",
+        "selectedDistance": 3,
+        "updates": [
+          {
+            "vertex": "X5",
+            "distance": 4,
+            "previous": "X2"
+          },
+          {
+            "vertex": "X6",
+            "distance": 5,
+            "previous": "X2"
+          }
+        ]
+      },
+      {
+        "selected": "X3",
+        "selectedDistance": 4,
+        "updates": [
+          {
+            "vertex": "X7",
+            "distance": 5,
+            "previous": "X3"
+          }
+        ]
+      },
+      {
+        "selected": "X4",
+        "selectedDistance": 4,
+        "updates": [
+          {
+            "vertex": "X8",
+            "distance": 7,
+            "previous": "X4"
+          }
+        ]
+      },
+      {
+        "selected": "X5",
+        "selectedDistance": 4,
+        "updates": [
+          {
+            "vertex": "X9",
+            "distance": 6,
+            "previous": "X5"
+          },
+          {
+            "vertex": "X11",
+            "distance": 6,
+            "previous": "X5"
+          }
+        ]
+      },
+      {
+        "selected": "X6",
+        "selectedDistance": 5,
+        "updates": [
+          {
+            "vertex": "X10",
+            "distance": 6,
+            "previous": "X6"
+          },
+          {
+            "vertex": "X12",
+            "distance": 6,
+            "previous": "X6"
+          }
+        ]
+      },
+      {
+        "selected": "X7",
+        "selectedDistance": 5,
+        "updates": []
+      },
+      {
+        "selected": "X10",
+        "selectedDistance": 6,
+        "updates": [
+          {
+            "vertex": "X13",
+            "distance": 8,
+            "previous": "X10"
+          }
+        ]
+      },
+      {
+        "selected": "X11",
+        "selectedDistance": 6,
+        "updates": []
+      },
+      {
+        "selected": "X12",
+        "selectedDistance": 6,
+        "updates": []
+      },
+      {
+        "selected": "X9",
+        "selectedDistance": 6,
+        "updates": []
+      },
+      {
+        "selected": "X8",
+        "selectedDistance": 7,
+        "updates": []
+      },
+      {
+        "selected": "X13",
+        "selectedDistance": 8,
+        "updates": []
+      }
+    ]
+  },
+  "allShortestPaths": [
+    [
+      "X1",
+      "X2",
+      "X5",
+      "X11",
+      "X13"
+    ],
+    [
+      "X1",
+      "X2",
+      "X6",
+      "X10",
+      "X13"
+    ],
+    [
+      "X1",
+      "X3",
+      "X7",
+      "X10",
+      "X13"
+    ]
+  ],
+  "checks": {
+    "sameDistance": true,
+    "samePath": true
+  }
+}

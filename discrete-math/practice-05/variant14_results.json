@@ -1,0 +1,304 @@
+{
+  "variant": 14,
+  "tableGraph": {
+    "vertices": 6,
+    "edgeCount": 8,
+    "components": 1,
+    "cyclomaticNumber": 3,
+    "edgeList": [
+      "X1X3",
+      "X1X5",
+      "X1X6",
+      "X2X3",
+      "X2X4",
+      "X2X5",
+      "X3X6",
+      "X4X5"
+    ],
+    "spanningTree": [
+      "X1X3",
+      "X1X5",
+      "X1X6",
+      "X2X3",
+      "X2X4"
+    ],
+    "fundamentalCycles": [
+      {
+        "chord": "X2X5",
+        "treePath": "X2 - X3 - X1 - X5",
+        "cycle": "X2 - X3 - X1 - X5 - X2"
+      },
+      {
+        "chord": "X3X6",
+        "treePath": "X3 - X1 - X6",
+        "cycle": "X3 - X1 - X6 - X3"
+      },
+      {
+        "chord": "X4X5",
+        "treePath": "X4 - X2 - X3 - X1 - X5",
+        "cycle": "X4 - X2 - X3 - X1 - X5 - X4"
+      }
+    ]
+  },
+  "minimumSpanningTree": {
+    "weightedEdges": [
+      {
+        "edge": "X1X3",
+        "weight": 1
+      },
+      {
+        "edge": "X1X5",
+        "weight": 3
+      },
+      {
+        "edge": "X1X6",
+        "weight": 2
+      },
+      {
+        "edge": "X2X3",
+        "weight": 2
+      },
+      {
+        "edge": "X2X4",
+        "weight": 3
+      },
+      {
+        "edge": "X2X5",
+        "weight": 3
+      },
+      {
+        "edge": "X3X6",
+        "weight": 2
+      },
+      {
+        "edge": "X4X5",
+        "weight": 5
+      }
+    ],
+    "sortedEdges": [
+      {
+        "edge": "X1X3",
+        "weight": 1
+      },
+      {
+        "edge": "X1X6",
+        "weight": 2
+      },
+      {
+        "edge": "X2X3",
+        "weight": 2
+      },
+      {
+        "edge": "X3X6",
+        "weight": 2
+      },
+      {
+        "edge": "X1X5",
+        "weight": 3
+      },
+      {
+        "edge": "X2X4",
+        "weight": 3
+      },
+      {
+        "edge": "X2X5",
+        "weight": 3
+      },
+      {
+        "edge": "X4X5",
+        "weight": 5
+      }
+    ],
+    "trace": [
+      {
+        "step": 1,
+        "edge": "X1X3",
+        "weight": 1,
+        "action": "додати",
+        "reason": "цикл не утворюється"
+      },
+      {
+        "step": 2,
+        "edge": "X1X6",
+        "weight": 2,
+        "action": "додати",
+        "reason": "цикл не утворюється"
+      },
+      {
+        "step": 3,
+        "edge": "X2X3",
+        "weight": 2,
+        "action": "додати",
+        "reason": "цикл не утворюється"
+      },
+      {
+        "step": 4,
+        "edge": "X3X6",
+        "weight": 2,
+        "action": "не додавати",
+        "reason": "утворюється цикл"
+      },
+      {
+        "step": 5,
+        "edge": "X1X5",
+        "weight": 3,
+        "action": "додати",
+        "reason": "цикл не утворюється"
+      },
+      {
+        "step": 6,
+        "edge": "X2X4",
+        "weight": 3,
+        "action": "додати",
+        "reason": "цикл не утворюється"
+      }
+    ],
+    "edges": [
+      {
+        "edge": "X1X3",
+        "weight": 1
+      },
+      {
+        "edge": "X1X6",
+        "weight": 2
+      },
+      {
+        "edge": "X2X3",
+        "weight": 2
+      },
+      {
+        "edge": "X1X5",
+        "weight": 3
+      },
+      {
+        "edge": "X2X4",
+        "weight": 3
+      }
+    ],
+    "totalWeight": 11
+  },
+  "figure2": {
+    "vertices": 13,
+    "edgeCount": 22,
+    "components": 1,
+    "cyclomaticNumber": 10,
+    "edgeList": [
+      "X1X2",
+      "X1X3",
+      "X1X4",
+      "X2X5",
+      "X2X6",
+      "X3X5",
+      "X3X7",
+      "X4X6",
+      "X4X7",
+      "X4X8",
+      "X5X9",
+      "X5X11",
+      "X6X10",
+      "X6X12",
+      "X7X9",
+      "X7X10",
+      "X8X11",
+      "X8X12",
+      "X9X13",
+      "X10X13",
+      "X11X13",
+      "X12X13"
+    ]
+  },
+  "figure3": {
+    "vertices": 9,
+    "edgeCount": 19,
+    "components": 1,
+    "cyclomaticNumber": 11,
+    "edgeList": [
+      "X1X2",
+      "X1X4",
+      "X1X5",
+      "X1X7",
+      "X2X3",
+      "X2X4",
+      "X2X8",
+      "X2X9",
+      "X3X6",
+      "X3X8",
+      "X3X9",
+      "X4X7",
+      "X4X8",
+      "X5X6",
+      "X5X7",
+      "X5X8",
+      "X6X8",
+      "X7X8",
+      "X8X9"
+    ],
+    "spanningTree": [
+      "X1X2",
+      "X1X4",
+      "X1X5",
+      "X1X7",
+      "X2X3",
+      "X5X6",
+      "X7X8",
+      "X8X9"
+    ],
+    "fundamentalCycles": [
+      {
+        "chord": "X2X4",
+        "treePath": "X2 - X1 - X4",
+        "cycle": "X2 - X1 - X4 - X2"
+      },
+      {
+        "chord": "X2X8",
+        "treePath": "X2 - X1 - X7 - X8",
+        "cycle": "X2 - X1 - X7 - X8 - X2"
+      },
+      {
+        "chord": "X2X9",
+        "treePath": "X2 - X1 - X7 - X8 - X9",
+        "cycle": "X2 - X1 - X7 - X8 - X9 - X2"
+      },
+      {
+        "chord": "X3X6",
+        "treePath": "X3 - X2 - X1 - X5 - X6",
+        "cycle": "X3 - X2 - X1 - X5 - X6 - X3"
+      },
+      {
+        "chord": "X3X8",
+        "treePath": "X3 - X2 - X1 - X7 - X8",
+        "cycle": "X3 - X2 - X1 - X7 - X8 - X3"
+      },
+      {
+        "chord": "X3X9",
+        "treePath": "X3 - X2 - X1 - X7 - X8 - X9",
+        "cycle": "X3 - X2 - X1 - X7 - X8 - X9 - X3"
+      },
+      {
+        "chord": "X4X7",
+        "treePath": "X4 - X1 - X7",
+        "cycle": "X4 - X1 - X7 - X4"
+      },
+      {
+        "chord": "X4X8",
+        "treePath": "X4 - X1 - X7 - X8",
+        "cycle": "X4 - X1 - X7 - X8 - X4"
+      },
+      {
+        "chord": "X5X7",
+        "treePath": "X5 - X1 - X7",
+        "cycle": "X5 - X1 - X7 - X5"
+      },
+      {
+        "chord": "X5X8",
+        "treePath": "X5 - X1 - X7 - X8",
+        "cycle": "X5 - X1 - X7 - X8 - X5"
+      },
+      {
+        "chord": "X6X8",
+        "treePath": "X6 - X5 - X1 - X7 - X8",
+        "cycle": "X6 - X5 - X1 - X7 - X8 - X6"
+      }
+    ]
+  }
+}

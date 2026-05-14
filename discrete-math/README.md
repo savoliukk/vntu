@@ -1,23 +1,21 @@
-# Discrete Mathematics Calculation Scripts
+# Discrete Mathematics Scripts
 
-This directory contains only the calculation scripts for practical works 1-3 in the discrete mathematics course.
+This directory contains only Python calculation scripts and saved calculation results for discrete mathematics works.
 
-## Structure
+Allowed files here:
 
-- `practice-01/solve_pr1_tasks1_3.js` - set operations and Venn diagram expressions.
-- `practice-02/solve_pr2_tasks4_6.js` - relations, coverings, and combinatorics.
-- `practice-03/solve_pr3_tasks7_9.js` - logical functions, Karnaugh maps, and Quine minimization.
+- `*.py` calculation scripts;
+- `*.txt` text results;
+- `*.json` structured results;
+- this short `README.md`.
 
-## Run Locally
+Reports, images, PDFs, OCR text dumps, browser profiles, Node/Docker files, and generated tables are intentionally not stored in this repository.
 
-```sh
-npm run build
-```
+## Run
 
-The build script runs all three practical work calculation scripts. Scripts print summaries to stdout and may create local result files, which are ignored by Git.
-
-## Run With Docker
+Run a script directly, for example:
 
 ```sh
-docker compose run --rm discrete-math
+python discrete-math/lab-01/lab1_sets.py
+python discrete-math/practice-01/solve_pr1_tasks1_3.py
 ```
